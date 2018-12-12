@@ -297,6 +297,11 @@ h3 {
     cursor: pointer;
 }
 
+.project-box a {
+	width: 272;
+	height: 158;
+}
+
 .project-box:hover {
 	opacity: 0.6;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
