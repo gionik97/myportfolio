@@ -312,8 +312,8 @@ h3 {
     background-position: center;
 }
 
-.headphones-project {
-	background-image: url(img/headphones-project.jpg);
+.codeplayer-project {
+	background-image: url(img/codeplayer-project.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -321,6 +321,13 @@ h3 {
 
 .js-project {
 	background-image: url(img/js-project.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headphones-project {
+	background-image: url(img/headphones-project.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
