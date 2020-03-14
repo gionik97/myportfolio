@@ -1,0 +1,152 @@
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	background-color: #DCDCDC;
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.5;
+}
+
+.home-link {
+	margin: 20px 0 0 40px;
+}
+
+.home-link a {
+	color: #444;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.home-link a:hover {
+	color: #eece1a;
+	border-bottom: 3px solid #eece1a;
+	padding-bottom: 4px;
+	-o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+}
+
+#projects {
+  background-color: #DCDCDC;
+  color: var(--primary-color);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.project-header {
+	font-size: 20.8px;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.my-projects {
+	margin: 30px auto;
+	position: relative;
+	border-radius: 10px;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: (1fr)[3];
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: 220px;
+}
+
+
+.project-box {
+	border-radius: 10px;
+    margin: 20px 20px;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-box:hover {
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    -webkit-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.my-projects p {
+	margin: 30px;
+	color: black;
+}
+
+.react-portfolio-project {
+	background-image: url(img/react-portfolio-project.jpg);
+}
+
+.slp-project {
+	background-image: url(img/slp-project.jpg);
+}
+
+.codeplayer-project {
+	background-image: url(img/codeplayer-project.jpg);
+}
+
+.js-project {
+	background-image: url(img/.jpg);
+}
+
+.headphones-project {
+	background-image: url(img/headphones-project.jpg);
+}
+
+.projects-page {
+	margin-left: 20px;
+}
+
+.projects-page a {
+	font-size: 18px;
+	color: var(--primary-color);
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+	.my-projects {
+		-ms-grid-columns: 1fr 10px 1fr;
+		grid-template-columns: repeat(2, 1fr);
+		height: 480px;
+	}
+
+
+	.my-projects {
+		-ms-grid-columns: 1fr;
+		grid-template-columns: 1fr;
+		height: 480px;
+		margin-top: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+	
+
+	#projects {
+		height: 680px;
+	}
+
+	.my-projects {
+		-ms-grid-columns: 1fr;
+		grid-template-columns: 1fr;
+		height: 480px;
+		margin-top: 40px;
+    }
+}
+
+

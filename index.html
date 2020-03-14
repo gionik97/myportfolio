@@ -8,9 +8,10 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+	<div class="wrapper">
 	<header class="showcase">
 		<div class="navbar">
-		<nav>
+			<nav>
 				<ul>
 					<li><a href="#about-me" class="nav-link">About</a></li>
 					<li><a href="#skills" class="nav-link">Skills</a></li>
@@ -18,7 +19,12 @@
 					<li><a href="#contact" class="nav-link">Contact</a></li>
 				</ul>
 			</nav>
-			</div>
+		</div>
+
+		<div class="react-portfolio-link">
+			<a href="https://gionik-portfolio.herokuapp.com/" class="btn">React Portfolio</a>
+		</div>
+
 		<div class="content">
 			<div class="title">
 				<h1>Hi, I'm <span class="title-secondery">George!</span></h1>
@@ -31,7 +37,7 @@
 	</header>
 
 	    <!-- About ME -->
-
+<div class="main-container">
 <section id="about-me">
 	<div class="about-me-header">
 		<h1>About Me</h1>
@@ -70,18 +76,25 @@
 		<h1>My Projects</h1>
 	</div>
 	<div class="my-projects">
-			<a class="project-box slp-project"href="https://splitlandingpage.herokuapp.com/" target="_blank"></a>
-		
-			<a class="project-box headphones-project" href="https://space-sounds.herokuapp.com/" target="_blank"></a>
 
+			<a class="project-box react-portfolio-project"href="https://gionik-portfolio.herokuapp.com/" target="_blank"></a>
+			<p>This is my portfolio created in ReactJS and powered by ExpressJS. It includes other apps that are all created in ReactJS.</p>
+
+			<a class="project-box slp-project"href="https://splitlandingpage.herokuapp.com/" target="_blank"></a>
+			<p>HTML/CSS website with JavaScript effects on home page as well as inner pages. Also involves sing up form.</p>		
+	
+			<a class="project-box headphones-project" href="https://space-sounds.herokuapp.com/" target="_blank"></a>
+			<p>Simple HTML/CSS landing page with lightbox image gallery.</p>
+		
 			<a class="project-box codeplayer-project" href="https://yourcodeplayer.herokuapp.com/" target="_blank"></a>
-		
-			<a class="project-box js-project" href="https://js-reactiontest.herokuapp.com/" target="_blank"></a>
-			
-		
-			<a class="project-box" href=""></a>	
+			<p>Code editor (HTML/CSS/JS) created in jQuery.</p>
+	
 	</div>
 </section>
+	<div class="projects-page">
+		<a href="">See all</a>
+	</div>
+</div>
 
     <!-- Contact -->
 
@@ -95,10 +108,10 @@
 	<div class="social-media">
 		<a href="mailto:gio97niko@gmail.com" author="iconfinder.com"><img src="img/email.svg" title="Email" width="40" height="40"></a>
 		<a href="https://github.com/gionik97" target="_blank" author="iconfinder.com"><img src="img/github.svg" title="github" width="40" height="40"></a>
-		<a href="https://www.upwork.com/o/profiles/users/_~01cff804023559dfd3/" target="_blank" author="iconfinder.com"><img src="img/upwork.svg" title="upwork" width="45" height="45"></a>
+		<a class="upwork-icon" href="https://www.upwork.com/o/profiles/users/_~01cff804023559dfd3/" target="_blank" author="iconfinder.com"><img src="img/upwork.svg" title="upwork" width="45" height="45"></a>
 	</div>
 </section>
-   
+   </div>
 </body>
 </html>
 
