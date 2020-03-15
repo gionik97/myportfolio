@@ -525,6 +525,10 @@ h3 {
     	text-align: center;
     }
 
+    .react-portfolio-link {
+    	z-index: 3;
+    }
+
     #about-me {
     	height: 450px;
     }
