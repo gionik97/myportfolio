@@ -112,7 +112,7 @@ nav ul li {
 
 .react-portfolio-link {
 	position: absolute;
-  	z-index: 2;	
+  	z-index: 3;	
   	top: 20px;
 	right: 15px;
 	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="2" /></filter></svg>#filter');
